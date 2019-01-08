@@ -1,0 +1,28 @@
+<html>
+<head></head>
+<style>
+.c1
+{
+height:90px;
+width:230px;
+border:2px solid black;
+padding:3px;
+margin:5px;
+}
+</style>
+<body>
+<img class="c1" src="IMG_20170422_083616.jpg" onmouseover="f1(this)"/>
+<img class="c1" src="IMG_20170610_145603.jpg" onmouseover="f1(this)"/>
+<img class="c1" src="IMG_20180217_094106.jpg" onmouseover="f1(this)"/>
+<img class="c1" src="IMG_20170611_102210.jpg" onmouseover="f1(this)"/>
+<br/><br/>
+<img id="x" src="IMG_20170519_120225.jpg" height="550" width="700" border="2"/>
+<script>
+function f1(imgobj)
+{
+var obj=document.getElementById("x");
+obj.src=imgobj.src;
+}
+</script>
+</body>
+</html>
